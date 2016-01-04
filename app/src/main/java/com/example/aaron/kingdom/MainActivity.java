@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void TestFetchUserFromSP (){
         user = userLocalStore.getUserData();
-        bLogout.setText("Logout from " + user.username);
+        bLogout.setText("Logout from Username: '" + user.username + "' with Password: '" + user.password + "'");
     }
 }
